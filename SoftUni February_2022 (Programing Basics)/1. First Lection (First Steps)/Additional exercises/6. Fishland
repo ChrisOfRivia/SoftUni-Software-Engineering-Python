@@ -1,0 +1,15 @@
+price_of_skumriq = float(input())
+price_of_caca = float(input())
+kg_of_palamud = float(input())
+kg_of_safrid = float(input())
+kg_midi = int(input())
+
+palamud_for_kg = price_of_skumriq + price_of_skumriq * 0.6
+safrid_for_kg = price_of_caca + price_of_caca * 0.8
+
+price_of_palamud = kg_of_palamud * palamud_for_kg
+price_of_safrid = safrid_for_kg * kg_of_safrid
+price_of_midi = 7.50 * kg_midi
+
+price_for_everything = price_of_palamud+price_of_safrid+price_of_midi
+print(format(price_for_everything, ".2f"))
